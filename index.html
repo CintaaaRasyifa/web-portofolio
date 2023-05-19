@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio cinta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      font-family: "Poppins", sans-serif;
+      scroll-behavior: smooth;
+    }
+  </style>
+  <body>
+    <main class="h-screen w-full">
+      <div class="bg-[#0A0919] h-5/6">
+        <header class="px-24 flex justify-between items-center py-4">
+          <h2 class="text-4xl font-bold text-[#00B3CC] italic select-none">.CA</h2>
+          <nav>
+            <ul class="flex gap-10 text-white text-sm font-bold">
+              <li><a href="#home" class="hover:opacity-80">Home</a></li>
+              <li><a href="#about" class="hover:opacity-80">About</a></li>
+              <li><a href="#project" class="hover:opacity-80">Project</a></li>
+              <li><a href="#contact" class="hover:opacity-80">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <section class="px-24 flex flex-col justify-center items-center h-full">
+          <h1 class="text-6xl font-bold text-white text-center">
+            Hi, I'm Cinta
+          </h1>
+          <p class="text-2xl text-white text-center">
+            I'm a Frontend Developer
+          </p>
+          <button class="bg-[#00B3CC] text-white px-10 py-3 rounded-full mt-10 hover:opacity-80 ease-in-out">
+            <a href="#contact">Contact Me</a>
+          </button>
+      </div>
+      <div class="bg-[#100F2E] h-1/6 flex justify-center items-center">
+        <div class="flex gap-10 items-center">
+            <a href="https://github.com/CintaaaRasyifa">
+                <img src="https://img.icons8.com/color-glass/48/null/github--v1.png" class="w-16  hover:scale-125  hover:ease-in-out  " alt="">
+            </a>
+            <a href="https://www.instagram.com/cintaa_forger/">
+                <img  src="https://img.icons8.com/color/48/null/linkedin.png" class="w-16  hover:scale-125  hover:ease-in-out " alt="">
+            </a>
+            <a href="https://www.instagram.com/cintaa_forger/">
+              <img src="https://img.icons8.com/nolan/64/instagram-new.png" class=" hover:scale-125  hover:ease-in-out  "/>
+            </a>
+        </div>
+      </div>
+
+      <!-- about -->
+      <section id="about" class="h-screen w-full bg-[#100F2E] flex items-center">
+          <div class="flex flex-col max-w-4xl mx-auto gap-4">
+            <span class="pb-10">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30 0L60 30L30 60L0 30L30 0Z" fill="#D83A00"/>
+                </svg>
+            </span>
+              <h1 class="text-4xl font-bold text-white">
+                  About Me
+              </h1>
+              <span class="pb-10"><svg width="80" height="3" viewBox="0 0 80 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="80" height="3" rx="1.5" fill="#1BE069"/>
+                </svg>
+                </span>
+                <p class="text-gray-100 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada, odio ac maximus ullamcorper, elit orci molestie ante, sit amet vulputate ligula ipsum varius neque. Quisque pellentesque ligula ac eleifend consequat. Aliquam egestas vehicula nisl, id condimentum quam suscipit in.</p>
+
+                <div class="flex items-center text-white font-bold text-l space-x-8">
+                  <img src="./assets/User Icon.svg" alt="">
+                  <span>Name</span>
+                  <span>:</span>
+                    <p>Cinta Rahmaliya Syhifa</p>
+                </div>
+
+                <div class="flex items-center text-white font-bold text-l space-x-8">
+                  <img src="./assets/Phone Icon.svg" alt="">
+                  <span>Phone</span>
+                  <span>:</span>
+                    <p>+62 812 1734</p>
+                </div>
+
+                <div class="flex items-center text-white font-bold text-l space-x-8">
+                  <img src="./assets/Mail Icon.svg" alt="">
+                  <span>Email</span>
+                  <span>:</span>
+                    <p>cintarahmaliyasyifa04@gmail.com</p>
+                </div>
+
+          </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact" class="w-full h-screen">
+        <div class="h-4/6 bg-[#0A0919] items-center ">
+         <div class=" flex flex-col max-w-4xl mx-auto gap-4 text-white pt-24">
+          <h1 class="text-4xl font-bold text-white">
+            Get in Touch
+        </h1>
+        <span class="pb-10"><svg width="80" height="3" viewBox="0 0 80 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="80" height="3" rx="1.5" fill="#1BE069"/>
+          </svg>
+          </span>
+          <p>Have Any Project or Interested to Work with Me?</p>
+
+         </div>
+         <div class="flex space-x-16 justify-center pt-28">
+          <span>
+            <a href=""> <img src="./assets/Phone Btn.svg" alt=""></a>
+           </span>
+           <span>
+            <a href=""> <img src="./assets/WhatsApp Btn.svg" alt=""></a>
+           </span>
+           <span>
+             <a href="">
+               <img src="./assets/Mail Btn.svg" alt="">
+             </a>
+           </span>
+         </div>
+        </div>
+        <div class="h-2/6 w-full bg-[#100F2E]">
+          <div class="flex py-28 justify-between max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold text-[#00B3CC] italic select-none">.CA</h2>
+            <span>
+              <img src="./assets/Thanks for UR Scrolling.svg" alt="">
+              <img src="./assets/Rectangle 15.svg" alt="">
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
